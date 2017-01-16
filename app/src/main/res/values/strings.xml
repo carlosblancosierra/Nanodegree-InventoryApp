@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">InventoryApp</string>
+
+    <string name="unit_piece">Piece</string>
+    <string name="unit_kilograms">Kg</string>
+    <string name="unit_meter_square">m2</string>
+    <string name="unit_meter_cubic">m3</string>
+
+    <string name="insert_item_failed">Failed to Add Item</string>
+    <string name="insert_item_succed">Item Added</string>
+    <string name="delete_item_succed">Item Deleted</string>
+    <string name="delete_item_failed">Failed to Delete Item</string>
+    <string name="detail_activity_title_new_item">New Item</string>
+    <string name="detail_activity_title_edit_item">Edit Item</string>
+    <string name="unit_no_provided">N/P</string>
+    <string name="update_item_failed">Failed to update item</string>
+    <string name="update_item_successful">Item updated</string>
+    <string name="delete_confirmation_dialog">Delete Item?</string>
+    <string name="delete">DELETE</string>
+    <string name="delete_cancel">CANCEL</string>
+    <string name="unsaved_dialog_message">Leave without saving changes?</string>
+    <string name="unsaved_changes_leave">Discard Changes</string>
+    <string name="unsaved_changes_cancel">CANCEL</string>
+    <string name="items_received">Insert Items Received</string>
+    <string name="quantity_hint">quantity</string>
+    <string name="supplier_hint">supplier</string>
+    <string name="date_hint">Date(mm/dd/yy)</string>
+    <string name="buyer">buyer</string>
+    <string name="order_items">Place Order</string>
+    <string name="add_items">Add Items</string>
+    <string name="deduct_items">Deduct Items</string>
+    <string name="add_item_failed">Failed to Add Items</string>
+    <string name="add_item_succed">Quantity raised by:</string>
+    <string name="deduct_item_failed">Deduct Item Failed</string>
+    <string name="deduct_item_succed">Item Deducted by:</string>
+    <string name="not_enought_items">Not Enought Items</string>
+    <string name="item">ITEM:</string>
+    <string name="details">DETAILS:</string>
+    <string name="unit">UNIT:</string>
+    <string name="price">PRICE:</string>
+    <string name="quant">QUANT.:</string>
+    <string name="code">CODE:</string>
+    <string name="detail_item_quantity">ITEMS IN STOCK:</string>
+    <string name="add_quantity_hint">Add Quantity</string>
+    <string name="deduct_quantity_hint">Deduct Quantity</string>
+    <string name="order_quantity_hint">Order Quantity</string>
+    <string name="place_order_quantity">Order Quantity</string>
+    <string name="empy_list_text">Inventory is Empty. Click add button to create a new Item. Dont Forget to Add a name, Without one the Item wont be created</string>
+    <string name="edit_item_details">EDIT ITEM DETAILS</string>
+    <string name="change_item_image">CHANGE ITEM IMAGE</string>
+    <string name="sell_quantity_hint">SellQuantity</string>
+    <string name="sell">SELL</string>
+    <string name="open_details">OPEN DETAILS</string>
+    <string name="save">Save</string>
+    <string name="menu_delete">Delete</string>
+    <string name="insert_dummy_data">Insert Dummy Data</string>
+    <string name="delete_all_entries">Delete all entries</string>
+    <string name="add">Add</string>
+    <string name="add_item_failed_no_input">Please Enter Add Quantity</string>
+    <string name="remove_item_failed_no_input">Please Enter Deduct Quantity</string>
+    <string name="no_item_values">Please Enter All information</string>
+    <string name="input_error_some_item_blank">Error: Every Value Musy Be Filled</string>
+
+
+</resources>

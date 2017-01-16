@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#17202A">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="#17202A"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="@string/detail_item_quantity"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/detail_activity_text_view_quantity"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="20dp"
+                android:layout_weight="1"
+                android:background="#D6DBDF"
+                android:gravity="center"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                tools:text="10" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="355dp">
+
+            <ImageView
+                android:id="@+id/picture_image_view"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"
+                android:scaleType="center" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="#ABEBC6"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/add_item_button"
+                        style="@style/detail_activity_add_deduct_order_buttons"
+                        android:text="@string/add_items" />
+
+                    <EditText
+                        android:id="@+id/add_item_edit_text_view"
+                        style="@style/detail_activity_add_deduct_order_edittext"
+                        android:hint="@string/add_quantity_hint"
+                        android:textColor="#0B5345"
+                        android:textColorHint="#0B5345" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="#F5B7B1"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/deduct_item_button"
+                        style="@style/detail_activity_add_deduct_order_buttons"
+                        android:text="@string/deduct_items" />
+
+                    <EditText
+                        android:id="@+id/deduct_item_edit_text_view"
+                        style="@style/detail_activity_add_deduct_order_edittext"
+                        android:hint="@string/deduct_quantity_hint"
+                        android:textColor="#641E16"
+                        android:textColorHint="#641E16" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="#AED6F1"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/place_order_button"
+                        style="@style/detail_activity_add_deduct_order_buttons"
+                        android:text="@string/order_items" />
+
+                    <EditText
+                        android:id="@+id/placer_order_quantity"
+                        style="@style/detail_activity_add_deduct_order_edittext"
+                        android:hint="@string/place_order_quantity"
+                        android:textColor="#154360"
+                        android:textColorHint="#154360" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#85929E"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:text="@string/edit_item_details"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:paddingLeft="5dp">
+
+                <TextView
+                    style="@style/detail_activity_item_labels"
+                    android:text="@string/item" />
+
+                <TextView
+                    style="@style/detail_activity_item_labels"
+                    android:layout_width="wrap_content"
+                    android:text="@string/details" />
+
+
+                <TextView
+                    style="@style/detail_activity_item_labels"
+                    android:text="@string/price" />
+
+                <TextView
+                    style="@style/detail_activity_item_labels"
+                    android:text="@string/code" />
+
+                <TextView
+                    style="@style/detail_activity_item_labels"
+                    android:text="@string/unit" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2.5"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/detail_activity_edit_text_name"
+                    style="@style/detail_activity_item_values"
+                    tools:text="Cabilla H/N" />
+
+                <EditText
+                    android:id="@+id/detail_activity_edit_text_description"
+                    style="@style/detail_activity_item_values"
+                    tools:text="3&quot; x 6m" />
+
+                <EditText
+                    android:id="@+id/detail_activity_edit_text_price"
+                    style="@style/detail_activity_item_values"
+                    android:inputType="number"
+                    tools:text="20000" />
+
+                <EditText
+                    android:id="@+id/detail_activity_edit_text_code"
+                    style="@style/detail_activity_item_values"
+                    tools:text="CAB3I" />
+
+                <Spinner
+                    android:id="@+id/detail_activity_unit_spinner"
+                    style="@style/detail_activity_item_values"
+                    android:spinnerMode="dropdown" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/pick_picture_button"
+            style="@style/detail_activity_add_deduct_order_buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/change_item_image" />
+
+    </LinearLayout>
+</ScrollView>
